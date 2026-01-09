@@ -704,7 +704,8 @@ body:hover::before {
     overflow: hidden;
     transition: all var(--transition-normal);
     position: relative;
-    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .cursor-reactive-card {
@@ -796,6 +797,9 @@ body:hover::before {
     position: relative;
     z-index: 2;
     background: inherit;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .project-content h3 {
@@ -832,6 +836,8 @@ body:hover::before {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    margin-top: auto;
+    padding-top: 1rem;
 }
 
 .github-icon {
