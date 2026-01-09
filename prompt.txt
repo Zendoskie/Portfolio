@@ -1,0 +1,200 @@
+## 🔥 FULL PROMPT: Modern Techy Computer Science Portfolio
+
+**(with Cursor-Reactive Glow Effects)**
+
+> **Role:** You are a senior frontend engineer and UI/UX designer.
+> **Task:** Build a **modern, futuristic personal portfolio website** for **John Paul C. Marquez**, a **Computer Science student and frontend developer**, featuring **advanced interactive cursor effects** and smooth animations.
+
+---
+
+## 🧠 GENERAL REQUIREMENTS
+
+* Tech stack: **HTML, CSS, JavaScript**
+* Fully responsive (mobile-first)
+* Clean, maintainable code
+* SEO-friendly HTML structure
+* Optimized performance
+
+---
+
+## 🎨 DESIGN & THEME
+
+* **Dark mode default**
+* Futuristic / computer science aesthetic
+* Background: `#020617`, `#0f172a`
+* Accent colors: neon blue / cyan / green (`#38bdf8`, `#22c55e`)
+* Fonts:
+
+  * Headings: **Inter / Poppins**
+  * Code: **JetBrains Mono**
+* Glassmorphism cards
+* Subtle glow and neon accents
+
+---
+
+## 🖱️ INTERACTIVE CURSOR EFFECTS (VERY IMPORTANT)
+
+### ✨ Button Cursor Glow
+
+* Buttons should **react to cursor movement**
+* Create a **dynamic radial glow** that follows the cursor inside the button
+* Glow color should match the accent color
+* Effect fades smoothly when cursor leaves
+
+**Effect ideas:**
+
+* CSS `::before` pseudo-element
+* Radial-gradient background
+* JavaScript mouse position tracking
+* Soft blur + opacity transition
+
+---
+
+### ✨ Hover Effects
+
+* Buttons:
+
+  * Glow border on hover
+  * Slight scale-up
+  * Neon shadow
+* Cards:
+
+  * Lift upward on hover
+  * Border glow animation
+* Icons:
+
+  * Glow pulse on hover
+
+---
+
+### ✨ Cursor Aura (Optional Bonus)
+
+* Small glowing circle that follows the cursor
+* Uses `mix-blend-mode: difference` or neon blur
+* Disabled automatically on mobile devices
+
+---
+
+## ✨ MODERN ANIMATIONS
+
+* Fade-in on scroll (Intersection Observer)
+* Typing animation for role text
+* Animated gradient text for name
+* Smooth navbar hide/show
+* Project cards slide-in
+* Smooth scroll navigation
+
+---
+
+## 🧭 WEBSITE SECTIONS
+
+### 1️⃣ HERO SECTION
+
+* Full-screen section
+* Animated tech grid / particle background
+
+**Hero Content:**
+
+* Animated gradient name:
+  **John Paul C. Marquez**
+* Typing text:
+  `Computer Science Student | Frontend Developer | AI Enthusiast`
+* Tagline:
+  *“Building smart, modern, and interactive systems through code.”*
+
+**Buttons (with cursor glow effect):**
+
+* `View Projects`
+* `Contact Me`
+
+---
+
+### 2️⃣ ABOUT ME
+
+* Professional introduction
+* CS background, AI interest, Web Dev, UX
+* Profile image with glowing border
+
+---
+
+### 3️⃣ SKILLS
+
+* Animated skill cards
+* Progress bars glow when hovered
+* Neon highlight on active skill
+
+---
+
+### 4️⃣ PROJECTS
+
+* Glassmorphism cards
+* Hover glow border
+* Cursor-reactive lighting effect inside cards
+* Buttons with radial cursor glow
+
+---
+
+### 5️⃣ EXPERIENCE / ACHIEVEMENTS
+
+* Academic projects
+* Thesis work
+* System development experience
+
+---
+
+### 6️⃣ CONTACT
+
+* Contact form
+* Social icons with glow hover effects
+
+---
+
+## 🔗 SOCIAL & CONTACT LINKS (USE EXACTLY)
+
+* **GitHub:** [https://github.com/Zendoskie](https://github.com/Zendoskie)
+* **Facebook:** [https://www.facebook.com/zendoxpaul](https://www.facebook.com/zendoxpaul)
+* **Instagram:** [https://www.instagram.com/zendoxpaul/](https://www.instagram.com/zendoxpaul/)
+* **Email:** mailto:johnpaulmarquez028@gmail.com
+
+---
+
+## 🧱 FOOTER
+
+* Minimal
+* Text:
+  `© 2026 John Paul C. Marquez | Built with ❤️ and JavaScript`
+* Animated back-to-top button with glow
+
+---
+
+## 📁 FOLDER STRUCTURE
+
+```
+portfolio/
+│── index.html
+│── css/
+│   └── style.css
+│── js/
+│   └── script.js
+│── assets/
+│   ├── images/
+│   └── icons/
+```
+
+---
+
+## 🚀 BONUS EFFECTS (OPTIONAL)
+
+* Magnetic buttons (slight pull toward cursor)
+* Active section glow in navbar
+* Subtle background noise texture
+* Lazy image loading
+
+---
+
+## ✅ OUTPUT EXPECTATION
+
+* Full working code
+* Clean and commented
+* High-end interactive UI
+* Ready for GitHub Pages deployment
